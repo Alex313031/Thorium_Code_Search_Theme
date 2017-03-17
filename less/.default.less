@@ -1,25 +1,39 @@
+// tomorrow-theme-night
 body.codesearch-theme.default {
 
   @import "base/styles.less";
 
-  @bg-color: #272822;
-  @dark-bg-color: #222;
-  @text-color: #ddd;
-  @light-text-color: #eee;
-  @border-color: #444;
-  @light-border-color: #888;
-  @selection-color: #555;
-  @hover-selection-bg-color: #661;
-  @hover-selection-color: @text-color;
-  @link-color:#82B2DD;
-  @visited-color: #aaa;
+  @red: #cc6666;
+  @orange: #de935f;
+  @yellow: #f0c674;
+  @green: #b5bd68;
+  @aqua: #8abeb7;
+  @blue: #81a2be;
+  @purple: #b294bb;
 
-  /* Theme based syntax highlighting  */
-  @stx-line:#eee;
-  @stx-macro:#f5b;
-  @stx-comment:#A85;
-  @stx-keyword:#0bf;
-  @stx-string:#5D0;
-  @stx-number:#ff4d00;
+  @bg: #1d1f21;
+  @current-line: #282a2e;
+  @selection: #373b41;
+  @text: #c5c8c6;
+  @comment: #969896;
+  
+  // extra color
+  @link: @blue;
+  @border: @blue;
+  @bg-1: darken(@bg, 3%);
+  @bg-2: darken(@bg, 5%);
+  @bg-3: lighten(@bg, 5%);
+  @highlight-1: @red;
+  @highlight-2: @yellow;
+  @highlight-3: @aqua;
+  @button: lighten(@bg, 10%);
+  @button-text: @blue;
 
+  // Theme based syntax highlighting
+  @stx-line: @bg;
+  @stx-macro: @purple;
+  @stx-comment: @comment;
+  @stx-keyword: @purple;
+  @stx-string: @green;
+  @stx-number: @orange;
 }

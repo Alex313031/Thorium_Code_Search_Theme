@@ -1,8 +1,5 @@
-monokai
-twilight
-spacecadet
-blackboard
-espresso-libre
-pastels-on-dark
-zenburnesque
-cobalt
+tomorrow-theme
+tomorrow-theme-night
+tomorrow-theme-night-blue
+tomorrow-theme-night-bright
+tomorrow-theme-night-eighties

@@ -2,7 +2,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://code.google.com/p/chromium/codesearch*"
+        "https://cs.chromium.org/*"
       ], 
       "js": [
         "js/jquery-1.11.1.min.js", 
@@ -31,11 +31,11 @@
     "default_icon": "themes-icon.png", 
     "default_popup": "popup.html"
   }, 
-  "version": "0.1.8", 
+  "version": "0.1.9", 
   "manifest_version": 2, 
   "permissions": [
     "tabs", 
     "storage", 
-    "https://code.google.com/p/chromium/codesearch*"
+    "https://cs.chromium.org/*"
   ]
 }
