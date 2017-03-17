@@ -6,14 +6,7 @@ Ideal for Chromium devs!
 Simple extension to help you rest your eyes while navigating the source tree.
 
 Supporting themes:
-- Monokai
-- Twilight
-- Space cadet
-- Blackboard
-- Espresso Libre
-- Pastels on Dark
-- Zenburnesque
-- Cobalt
+- Tomorrow themes
 
 Shortcuts:
 - Next theme: CTRL + SHIFT + L.
