@@ -23,13 +23,25 @@ a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
 
-.gwt-TabLayoutPanelTabs-outer, .pagerContainer, .content-header, .fb-h.fb-a, .f-kb {
+.cs-TabLayoutPanelTabs, .pagerContainer, .content-header, .fb-h.fb-a, .f-kb {
   background-color: @bg-1;
   border-bottom: 0;
 }
 
+.cs-TabLayoutPanelTabInner>.gwt-HTML {
+  color: @link;
+}
+
+.cs-TabLayoutPanelTab-selected>.cs-TabLayoutPanelTabInner>.gwt-HTML {
+  color: @text;
+}
+
 .gwt-TabText, .gwt-TabSeparator, .outline-name, .outline-param {
   color: @link;
+}
+
+.focus .selected .treeItemContent, .focus .selected .treeItemContent .outlineparam, .focus .selected .treeItemContent .outlineicon {
+  background-color: @bg-2;
 }
 
 #browsecontent {
@@ -118,6 +130,43 @@ a.linelink {
 
 .goog-button-base-content {
   color: @button-text;
+}
+
+.focusableScrollPanel {
+  background-color: @bg;
+}
+
+.w-c {
+  background-color: @bg-2;
+}
+
+.cb-a {
+  background-color: @bg-1;
+}
+
+.x-a {
+  background-color: @bg;
+}
+
+.x-i {
+  border-left: 3px solid @bg-2;
+  border-right: 3px solid @bg-2;
+  border-bottom: 3px solid @bg-2;
+}
+
+.yb-d, .cb-j:link, .cb-j:visited, .cb-j:hover, .cb-j:active  {
+  color: @link !important;
+}
+
+.U-a {
+  color: @text;
+  border-top: 1px solid @border;
+}
+
+.k-d {
+  color: @text;
+  background-color: @bg;
+  border-top: 1px solid @border;
 }
 
 ::-webkit-scrollbar {
