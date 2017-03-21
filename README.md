@@ -1,7 +1,7 @@
 codesearch-theme
 ================
 
-Ideal for Chromium devs!
+![screenshot](./codesearch-theme/screenshot.png)
 
 Simple extension to help you rest your eyes while navigating the source tree.
 
