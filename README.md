@@ -3,6 +3,8 @@ codesearch-theme
 
 ![screenshot](https://raw.githubusercontent.com/chaopeng/codesearch-theme/master/screenshot/screenshot.png)
 
+[Extension](https://chrome.google.com/webstore/detail/chromium-codesearch-theme/bncjaoffkbldggnfkakmnbgfpnikielm)
+
 Simple extension to help you rest your eyes while navigating the source tree.
 
 Supporting themes:
