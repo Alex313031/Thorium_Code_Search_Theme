@@ -3,10 +3,13 @@ color: @text;
 
 .stx-plain { color: @text; }
 .stx-comment { color: @stx-comment; }
-.stx-keyword { color: @stx-keyword; }
+.stx-keyword, .stx-keyword-s { color: @stx-keyword; }
 .stx-macro, .stx-macro a { color: @stx-macro; }
 .stx-string, .stx-string a { color: @stx-string; }
 .stx-number { color: @stx-number; }
+.stx-link { color: @text; } 
+.stx-link a { color: @link; }
+.stx-codeblock { color: @stx-macro; }
 
 input[type=text] {
   background-color: @bg-1;
