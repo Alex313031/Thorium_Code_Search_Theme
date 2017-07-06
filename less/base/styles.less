@@ -17,7 +17,7 @@ input[type=text] {
   color: @text;
 }
 
-.t-c, #breadcrumbs, .f-rb, .f-hb, #leftpanel_drag, #bottompanel_drag {
+.v-c, #breadcrumbs, .f-rb, .f-hb, #leftpanel_drag, #bottompanel_drag {
   background-color: @bg-2;
 }
 
@@ -26,9 +26,13 @@ a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
 
-.cs-TabLayoutPanelTabs, .pagerContainer, .content-header, .fb-h.fb-a, .f-kb {
+.cs-TabLayoutPanelTabs, .pagerContainer, .content-header, .hb-h.hb-a, .f-kb {
   background-color: @bg-1;
   border-bottom: 0;
+}
+
+.cs-TabLayoutPanelTab-selected {
+  background-color: @bg-2;
 }
 
 .cs-TabLayoutPanelTabInner>.gwt-HTML {
@@ -43,7 +47,7 @@ a:link, a:visited, a:hover, a:active {
   color: @link;
 }
 
-.focus .selected .treeItemContent, .focus .selected .treeItemContent .outlineparam, .focus .selected .treeItemContent .outlineicon {
+.gwt-FastTree .selected .treeItemContent {
   background-color: @bg-2;
 }
 
@@ -87,12 +91,16 @@ a.linelink {
   color: @bg;
 }
 
-.gwt-FastTree, .gwt-FastTree .stickyHeader, .S-a, .fb-f {
+.gwt-FastTree, .gwt-FastTree .stickyHeader, .S-a, .hb-f {
   background-color: @bg;
 }
 
-.vb-d, .gwt-InlineLabel, .gwt-Label, .focus .f-qb, .C-g {
+.gwt-InlineLabel, .gwt-Label, .focus .f-qb, .E-g {
   color: @text;
+}
+
+.gwt-Label.wb-d {
+  color: @bg;
 }
 
 .gux-dropdown-c {
@@ -107,13 +115,13 @@ a.linelink {
   background-color: @bg;
 }
 
-.C-n {
+.E-n {
   background-color: @bg-1;
   border-top: 1px solid @border;
   border-bottom: 1px solid @border;
 }
 
-.C-b, .K-b , .K-c {
+.E-b, .M-b {
   background-color: @bg-1;
 }
 
@@ -188,4 +196,8 @@ a.linelink {
 
 ::-webkit-scrollbar-corner {
   background: transparent;
+}
+
+#loadingindicator>* {
+  background: @bg-3;
 }
