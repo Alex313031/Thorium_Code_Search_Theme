@@ -1,20 +1,21 @@
-Thorium CodeSearch Themer
-================
+# Thorium CodeSearch Themer
 
-![screenshot](https://raw.githubusercontent.com/chaopeng/codesearch-theme/master/screenshot/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/Alex313031/Thorium_Code_Search_Themer/master/screenshot/Screenshot_2022-04-22_18-42-22.png)
 
-Simple extension to help you rest your eyes while navigating the Chromium source tree.
+## Simple extension to help you rest your eyes while navigating the Chromium source tree.
 
-Supporting themes:
-- Tomorrow themes
+__Included themes:__
+ - tomorrow-theme
+ - tomorrow-theme-night
+ - tomorrow-theme-night-blue
+ - tomorrow-theme-night-bright
+ - tomorrow-theme-night-eighties
 
-Shortcuts:
+
+__Shortcuts:__
 - Next theme: CTRL + SHIFT + L.
 - Previous theme: CTRL + SHIFT + K.
 
----
+&ndash; More style coverage is incrementally added.
 
-More style coverage is incrementally added.
-New themes and features coming nightly!
-
-Please comment and report missing parts and/or bugs.
+*Please comment and report missing parts and/or bugs.*
