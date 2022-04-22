@@ -8,10 +8,12 @@
       "js": [
         "js/jquery-3.6.0.min.js", 
         "js/generated.js", 
-        "js/chromiumcs_content_script.js"
+        "js/chromiumcs_content_script.js",
+        "js/popup.js"
       ], 
       "css": [
-        "css/generated.css"
+        "css/generated.css",
+        "css/popup.css"
       ], 
       "run_at": "document_start"
     }
