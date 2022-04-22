@@ -2,10 +2,11 @@
   "content_scripts": [
     {
       "matches": [
-        "https://cs.chromium.org/*"
+        "https://cs.chromium.org/*",
+        "https://source.chromium.org/*"
       ], 
       "js": [
-        "js/jquery-1.11.1.min.js", 
+        "js/jquery-3.6.0.min.js", 
         "js/generated.js", 
         "js/chromiumcs_content_script.js"
       ], 
@@ -15,8 +16,8 @@
       "run_at": "document_start"
     }
   ], 
-  "description": "Displays chromium code search in a customized theme", 
-  "short_name": "codesearch-theme", 
+  "description": "Displays Chromium code search in a customized theme.", 
+  "short_name": "codesearch-themer", 
   "icons": {
     "128": "themes-icon.png"
   }, 
@@ -25,17 +26,19 @@
       "js/background.js"
     ]
   }, 
-  "name": "Chromium CodeSearch Theme", 
+  "name": "Thorium CodeSearch Themer", 
   "page_action": {
-    "default_name": "Select style", 
+    "default_name": "Select Theme Style", 
     "default_icon": "themes-icon.png", 
     "default_popup": "popup.html"
   }, 
-  "version": "0.2.9", 
+  "version": "0.3.0", 
   "manifest_version": 2, 
+  "minimum_chrome_version": "48", 
   "permissions": [
     "tabs", 
     "storage", 
-    "https://cs.chromium.org/*"
+    "https://cs.chromium.org/*",
+    "https://source.chromium.org/*"
   ]
 }
