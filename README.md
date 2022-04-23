@@ -1,6 +1,6 @@
 # Thorium CodeSearch Themer
 
-![screenshot](https://raw.githubusercontent.com/Alex313031/Thorium_Code_Search_Themer/master/screenshot/Screenshot_2022-04-22_18-42-22.png)
+![screenshot](https://raw.githubusercontent.com/Alex313031/Thorium_Code_Search_Themer/master/screenshot/Screenshot_2022-04-22_19-09-40.png)
 
 ## Simple extension to help you rest your eyes while navigating the Chromium source tree.
 
