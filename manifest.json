@@ -21,7 +21,8 @@
   "description": "Displays Chromium code search in a customized theme.", 
   "short_name": "codesearch-themer", 
   "icons": {
-    "128": "themes-icon.png"
+    "128": "themes-icon_128.png",
+    "256": "themes-icon_256.png"
   }, 
   "background": {
     "scripts": [
@@ -31,10 +32,10 @@
   "name": "Thorium CodeSearch Themer", 
   "page_action": {
     "default_name": "Select Theme Style", 
-    "default_icon": "themes-icon.png", 
+    "default_icon": "themes-icon_256.png", 
     "default_popup": "popup.html"
   }, 
-  "version": "0.3.0", 
+  "version": "0.3.1", 
   "manifest_version": 2, 
   "minimum_chrome_version": "48", 
   "permissions": [
