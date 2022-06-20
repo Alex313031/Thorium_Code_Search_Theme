@@ -1,0 +1,48 @@
+/**
+ * Copyright (c) 2011 The Chromium Authors. All rights reserved.
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file.
+ */
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font:14px Arial;
+}
+
+#main {
+  padding:5px;
+  width:200px;
+}
+
+ul {
+  list-style-type: none;
+  margin:0px;
+  padding:0px;
+}
+
+li {
+  margin:0px;
+  border-bottom: 1px solid #ddd;
+  padding:0;
+}
+
+li p {
+ padding:20px;
+ text-align:center;
+}
+
+li a {
+  text-decoration: none;
+  padding:3px;
+  display:block;
+}
+
+li a:hover {
+  background: #ddd;
+}
+
+li a.current {
+  color:white !important;
+  background:#114488 !important;
+}

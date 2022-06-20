@@ -1,0 +1,52 @@
+{
+  "content_scripts": [
+    {
+      "matches": [
+        "https://source.chromium.org/*"
+      ],
+      "js": [
+        "js/jquery-3.6.0.min.js",
+        "js/generated.js",
+        "js/chromiumcs_content_script.js",
+        "js/popup.js"
+      ],
+      "css": [
+        "css/generated.css",
+        "css/popup.css"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "name": "Thorium CodeSearch Themer",
+  "short_name": "Codesearch Themer",
+  "description": "Displays Chromium code search in a customized theme.",
+  "icons": {
+    "128": "themes-icon_128.png",
+    "256": "themes-icon_256.png"
+  },
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; default-src 'self' 'unsafe-inline' 'unsafe-eval'; object-src 'self'; script-src-elem 'self' 'unsafe-inline' 'unsafe-eval' https://source.chromium.org/*;"
+  },
+  "action": {
+	"default_title": "Select Theme Style",
+    "default_name": "Select Theme Style",
+    "default_icon": "themes-icon_128.png", 
+    "default_popup": "popup.html"
+  },
+  "version": "0.3.2",
+  "author": "Alex313031",
+  "version_name": "0.3.2",
+  "manifest_version": 3,
+  "minimum_chrome_version": "88",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://source.chromium.org/*"
+    ]
+}

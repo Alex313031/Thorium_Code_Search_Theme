@@ -1,0 +1,203 @@
+background-color: @bg ;
+color: @text;
+
+.stx-plain { color: @text; }
+.stx-comment { color: @stx-comment; }
+.stx-keyword, .stx-keyword-s { color: @stx-keyword; }
+.stx-macro, .stx-macro a { color: @stx-macro; }
+.stx-string, .stx-string a { color: @stx-string; }
+.stx-number { color: @stx-number; }
+.stx-link { color: @text; } 
+.stx-link a { color: @link; }
+.stx-codeblock { color: @stx-macro; }
+
+input[type=text] {
+  background-color: @bg-1;
+  border: 1px solid @border;
+  color: @text;
+}
+
+.v-c, #breadcrumbs, .f-rb, .f-hb, #leftpanel_drag, #bottompanel_drag {
+  background-color: @bg-2;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: @link;
+  text-decoration: none;
+}
+
+.cs-TabLayoutPanelTabs, .pagerContainer, .content-header, .hb-h.hb-a, .f-kb {
+  background-color: @bg-1;
+  border-bottom: 0;
+}
+
+.cs-TabLayoutPanelTab-selected {
+  background-color: @bg-2;
+}
+
+.cs-TabLayoutPanelTabInner>.gwt-HTML {
+  color: @link;
+}
+
+.cs-TabLayoutPanelTab-selected>.cs-TabLayoutPanelTabInner>.gwt-HTML {
+  color: @text;
+}
+
+.gwt-TabText, .gwt-TabSeparator, .outline-name, .outline-param {
+  color: @link;
+}
+
+.gwt-FastTree .selected .treeItemContent {
+  background-color: @bg-2;
+}
+
+#browsecontent {
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+a.linelink {
+  background-color: @bg;
+  color: @link;
+}
+
+.addCommentsContainer {
+  background-color: @bg;
+}
+
+.lineNumberContainer {
+  background-color: @bg;
+  border-right: 1px solid @bg-1;
+}
+
+.f-L {
+  background-color: @highlight-1;
+  color: @bg !important;
+}
+
+.f-w{
+  background-color: @highlight-2;
+  color: @bg;
+}
+
+.chl, .chl .stx-comment, .chl .stx-string {
+  background-color: @highlight-3;
+  color: @bg;
+}
+
+::selection {
+  background-color: @text;
+  color: @bg;
+}
+
+.gwt-FastTree, .gwt-FastTree .stickyHeader, .S-a, .hb-f {
+  background-color: @bg;
+}
+
+.gwt-InlineLabel, .gwt-Label, .focus .f-qb, .E-g {
+  color: @text;
+}
+
+.gwt-Label.wb-d {
+  color: @bg;
+}
+
+.gux-dropdown-c {
+  background-color: @bg-3;
+}
+
+.gux-combo-item {
+  color: @text;
+}
+
+.gux-combo-item-selected, .nb-b:hover {
+  background-color: @bg;
+}
+
+.E-n {
+  background-color: @bg-1;
+  border-top: 1px solid @border;
+  border-bottom: 1px solid @border;
+}
+
+.E-b, .M-b {
+  background-color: @bg-1;
+}
+
+.goog-button-base-inner-box {
+  background-color: @button;
+  border-color: @border;
+}
+
+.goog-button-base-outer-box {
+  border-color:@border;
+}
+
+.goog-button-base-top-shadow {
+  background-color: @button;
+  border-bottom: @border;
+}
+
+.goog-button-base-content {
+  color: @button-text;
+}
+
+.focusableScrollPanel {
+  background-color: @bg;
+}
+
+.w-c {
+  background-color: @bg-2;
+}
+
+.cb-a {
+  background-color: @bg-1;
+}
+
+.x-a {
+  background-color: @bg;
+}
+
+.x-i {
+  border-left: 3px solid @bg-2;
+  border-right: 3px solid @bg-2;
+  border-bottom: 3px solid @bg-2;
+}
+
+.yb-d, .cb-j:link, .cb-j:visited, .cb-j:hover, .cb-j:active  {
+  color: @link !important;
+}
+
+.U-a {
+  color: @text;
+  border-top: 1px solid @border;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-thumb:active {
+  background: @bg-2;
+  border: 0;
+}
+
+::-webkit-scrollbar-track {
+  background: @bg-3;
+  border: 0;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+#loadingindicator>* {
+  background: @bg-3;
+}
