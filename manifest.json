@@ -40,7 +40,7 @@
   "author": "Alex313031",
   "version_name": "0.3.2",
   "manifest_version": 2,
-  "offline_enabled": true,
+  "minimum_chrome_version": "48",
   "permissions": [
     "tabs",
     "storage",
